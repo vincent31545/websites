@@ -1,0 +1,33 @@
+.score0 {background-color: red;}
+.score1 {background-color: rgb(255, 38, 0);}
+.score2 {background-color: orangered;}
+.score3 {background-color: orange;}
+.score4 {background-color: rgb(255, 208, 0);}
+.score5 {background-color: rgb(255, 238, 0);}
+.score6 {background-color: rgb(229, 255, 0);}
+.score7 {background-color: greenyellow;}
+.score8 {background-color: rgb(91, 202, 0);}
+.score9 {background-color: rgb(4, 167, 4);}
+.score10 {background-color: green;}
+
+.score-1 {
+    background-color: grey;
+}
+.card-container {
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+}
+
+.card-container:hover {
+    cursor: pointer;
+}
+
+.verse-title {
+    font-weight: bold;
+    font-size: 2vh;
+}

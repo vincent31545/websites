@@ -1,0 +1,155 @@
+.temp-button {
+    width: 100px;
+    height: 100px;
+}
+
+.temp-button:hover {
+    cursor: pointer;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.title {
+    margin-top: 5vh;
+    height: 10vh;
+    width: 100vw;
+    font-size: 9vh;
+    font-weight: bold;
+}
+
+.verse {
+    height: 10vh;
+    width: 60vw;
+    margin-top: 3vh;
+    font-size: 4vh;
+    padding: 0 20vw;
+}
+
+.big-input {
+    height: 30vh;
+    width: 50%;
+    font-size: 3vh;
+    margin-top: 10vh;
+    padding: 20px;
+
+    overflow-y: scorll;
+    scrollbar-width: none;
+}
+
+.big-input::-webkit-scrollbar{
+    display: none;
+}
+
+.scrollable {
+    position: absolute;
+    top: 10vh;
+    left: 0px;
+    background-color: aqua;
+}
+
+.score {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    height: 70px;
+    font-size: 3vw;
+    background-color: yellow;
+}
+
+.reset-all {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 140px;
+    height: 3vh + 15px;
+
+    border-radius: 15px;
+
+    text-align: center;
+    font-size: 3vh;
+    background-color: red;
+}
+.reset-all:hover {
+    cursor: pointer;
+}
+
+.reset {
+    position: absolute;
+    top: 65px;
+    right: 20px;
+    width: 100px;
+    height: 3vh + 15px;
+
+    border-radius: 15px;
+
+    text-align: center;
+    font-size: 3vh;
+    background-color: red;
+}
+.reset:hover {
+    cursor: pointer;
+}
+
+.hint {
+    position: absolute;
+    top: 110px;
+    right: 20px;
+    width: 100px;
+    height: 3vh + 15px;
+
+    border-radius: 15px;
+
+    text-align: center;
+    font-size: 3vh;
+    background-color: yellow;
+}
+.hint:hover {
+    cursor: pointer;
+}
+
+.shuffle {
+    position: absolute;
+    top: 155px;
+    right: 20px;
+    width: 130px;
+    height: 3vh + 15px;
+
+    border-radius: 15px;
+
+    text-align: center;
+    font-size: 3vh;
+    background-color: green;
+}
+.shuffle:hover {
+    cursor: pointer;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
