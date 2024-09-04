@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import ScriptureMemory from './ScriptureMemory/ScriptureMemory.js';
+import ChessBoard from './Chess/ChessBoard.js';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    <App />
+    // <ScriptureMemory />
+    <ChessBoard />
   // </React.StrictMode>
 );
 

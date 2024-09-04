@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <link rel="stylesheet" href="./resources/style.css">
+    <script type="text/javascript" src="./resources/chessJS.js"></script>
+    <title>Home</title>
+  </head>
+  <body>
+    <!--https://fonts.google.com/specimen/Ysabeau-->
+    <!----------------------->
+    <!--Top Part of Website-->
+    <!----------------------->
+    <!-- <img src="chessLogo.avif" alt="Chess Logo"> -->
+    <a href = "#">
+        <h1>AiYa</h1>
+    </a>
+
+    <!------------>
+    <!--Side Bar-->
+    <!------------>
+    <div class="sideBar">
+      <a href="#">
+        <button class = "buttonSideBar">
+          About
+        </button>
+      </a>
+      <a href="#">
+        <button class = "buttonSideBar">
+          Play
+        </button>
+      </a>
+      <a href="#">
+        <button class = "buttonSideBar">
+          Contact
+        </button>
+      </a>
+    </div>
+    <!--------------->
+    <!--Chess Board-->
+    <!--------------->
+    <div class="chessBoard">
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackRook1" src="./resources/blackRook.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackKnight1" src="./resources/blackKnight.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackBishop1" src="./resources/blackBishop.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackQueen" src="./resources/blackQueen.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackKing" src="./resources/blackKing.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackBishop2" src="./resources/blackBishop.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackKnight2" src="./resources/blackKnight.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackRook2" src="./resources/blackRook.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackPawn1" src="./resources/blackPawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackPawn2" src="./resources/blackPawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackPawn3" src="./resources/blackPawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackPawn4" src="./resources/blackPawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackPawn5" src="./resources/blackPawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackPawn6" src="./resources/blackPawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackPawn7" src="./resources/blackPawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="blackPawn8" src="./resources/blackPawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whitePawn1" src="./resources/whitePawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whitePawn2" src="./resources/whitePawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whitePawn3" src="./resources/whitePawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whitePawn4" src="./resources/whitePawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whitePawn5" src="./resources/whitePawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whitePawn6" src="./resources/whitePawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whitePawn7" src="./resources/whitePawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whitePawn8" src="./resources/whitePawn.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whiteRook1" src="./resources/whiteRook.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whiteKnight1" src="./resources/whiteKnight.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whiteBishop1" src="./resources/whiteBishop.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whiteQueen" src="./resources/whiteQueen.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whiteKing" src="./resources/whiteKing.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whiteBishop2" src="./resources/whiteBishop.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="blackSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whiteKnight2" src="./resources/whiteKnight.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+      <div class="whiteSquare" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="whiteRook2" src="./resources/whiteRook.png" draggable="true" ondragstart="drag(event)" width="100" height="100">
+      </div>
+
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,86 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #ECE2D0;
+}
+
+body {
+  width: 99%;
+  margin: 0;
+  padding: 0;
+  background-color: #62C4F9;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: #ECE2D0;
+}
+a:visited {
+  text-decoration: none;
+  color: #ECE2D0;
+}
+
+
+
+
+/*Side bar*/
+.sideBar {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  padding-top: 35px;
+  background-color: #4F5D75;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  box-shadow: 10px 0px 3px #3A4455;
+}
+
+
+.buttonSideBar {
+  height: 60px;
+  width: 160px;
+  padding-top: 10px;
+  padding-left: 35px;
+  margin: 0;
+  border: none;
+
+  background-color: #4F5D75;
+  color: #ECE2D0;
+  text-align: left;
+  text-decoration: none;
+  font-size: 23px; 
+}
+
+.buttonSideBar:hover {
+  background-color: #3A4455;
+}
+
+/*Chess Board*/
+.chessBoard {
+  width: 840px;
+  margin-left: 540px;
+  /* padding: 100px 100px 0px 200px; */
+}
+
+.whiteSquare {
+  height: 97px;
+  width: 97px;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  float: left;
+  justify-content: center;
+}
+
+div.blackSquare {
+  height: 97px;
+  width: 97px;
+  margin: 0;
+  padding: 0;
+  background-color: #3A4455;
+  float: left;
+  justify-content: center;
+}
